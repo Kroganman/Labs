@@ -14,3 +14,4 @@ int main()
     file<<mas;
     file.close();
     return 0;
+}
