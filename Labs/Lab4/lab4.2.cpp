@@ -90,5 +90,7 @@ int main()
     cout << "Addition = (" << vector3->getX() << "," << vector3->getY() << ")" << endl;
     vector3->setSub(x1,y1,x2,y2);
     cout << "Subtraction = (" << vector3->getX() << "," << vector3->getY() << ")";
+    delete vector1;
+    delete vector2;
     return 0;
 }
