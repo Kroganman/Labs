@@ -27,7 +27,7 @@ Rectangle::Rectangle(double a,double b):Quadrilateral::Quadrilateral(a,b,a,b)
 }
 
 
-Rhombus::Rhombus(double a,double angle):Quadrilateral::Quadrilateral(a,a,a,a),angle(angle)
+Rhombus::Rhombus(double a):Quadrilateral::Quadrilateral(a,a,a,a)
 {
 
 }
