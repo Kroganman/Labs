@@ -62,5 +62,6 @@ int main()
     cin.ignore();
     number->setData(re,im);
     cout << "The absolute value of a number = " << number->getModul() << endl << "Sinus of argument = " << number->getSin();
+    delete number;
     return 0;
 }
